@@ -650,9 +650,7 @@ static struct platform_driver ncp1854_user_space_driver = {
         .name = "ncp1854-user",
     },
 };
-#ifndef NCP1854_BUSNUM
-#define NCP1854_BUSNUM 3
-#endif
+#define NCP1854_BUSNUM 1
 static struct i2c_board_info __initdata i2c_ncp1854 = { I2C_BOARD_INFO("ncp1854", (0x6c>>1))};
 
 static int __init ncp1854_init(void)

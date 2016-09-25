@@ -59,7 +59,7 @@
 
 /*----------------------------------------------------------------------------*/
 static const struct i2c_device_id kxtj2_1009_i2c_id[] = {{KXTJ2_1009_DEV_NAME,0},{}};
-static struct i2c_board_info __initdata i2c_kxtj2_1009={ I2C_BOARD_INFO(KXTJ2_1009_DEV_NAME, (KXTJ2_1009_I2C_SLAVE_ADDR>>1))};
+static struct i2c_board_info __initdata i2c_kxtj2_1009={ I2C_BOARD_INFO(KXTJ2_1009_DEV_NAME, 0x0e/*(KXTJ2_1009_I2C_SLAVE_ADDR>>1)*/)};
 /*the adapter id will be available in customization*/
 //static unsigned short kxtj2_1009_force[] = {0x00, KXTJ2_1009_I2C_SLAVE_ADDR, I2C_CLIENT_END, I2C_CLIENT_END};
 //static const unsigned short *const kxtj2_1009_forces[] = { kxtj2_1009_force, NULL };

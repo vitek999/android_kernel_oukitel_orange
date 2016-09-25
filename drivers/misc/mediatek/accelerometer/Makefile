@@ -45,6 +45,10 @@ ifeq ($(CONFIG_MTK_KXTJ2_1009_NEW),y)
 obj-y   +=  KXTJ2_1009-new/
 endif
 
+ifeq ($(CONFIG_MTK_KXTJ2_1009_AUTO),y)
+obj-y   +=  KXTJ2_1009-auto/
+endif
+
 ifeq ($(CONFIG_MTK_BMA250E),y)
 obj-y   +=  bma250e/
 endif

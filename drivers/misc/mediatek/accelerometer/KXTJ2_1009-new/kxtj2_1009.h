@@ -99,6 +99,6 @@ typedef union
     KXTJ2_1009_RESET_CALI   resetCali;
 }KXTJ2_1009_CUST_DATA;
 /*----------------------------------------------------------------------------*/
-
+extern struct acc_hw* kxtj2_1009_get_cust_acc_hw(void);	//jeff add 20130926
 #endif
 

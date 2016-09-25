@@ -19,7 +19,5 @@ ifeq ($(CONFIG_MTK_STK3X1X),y)
 obj-y	+=  alsps/stk3x1x/
 endif
 
-ifeq ($(CONFIG_MTK_KXTIK1004),y)
-obj-y   +=  accelerometer/kxtik1004/
-endif
+obj-y   +=  accelerometer/KXTJ2_1009-new/
 endif
