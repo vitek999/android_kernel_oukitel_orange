@@ -8,6 +8,7 @@ obj-y   += dct/dct/
 endif
 
 #obj-y   +=  lcm/
+#obj-y   +=  accelerometer/KXTJ2_1009-new/
 obj-y   +=  camera/camera/
 obj-$(CONFIG_MTK_VIBRATOR)   +=  vibrator/
 obj-$(CONFIG_MTK_LEDS)   +=  leds/
